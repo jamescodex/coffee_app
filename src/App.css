@@ -1,0 +1,131 @@
+.app_section {
+    width: 80vw;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+* {
+    /* border: solid 1px red; */
+}
+
+.wallet-section {
+    display: flex;
+    gap: 15px;
+}
+
+.wallet-address {
+    background-color: aliceblue;
+    border: 2px solid rgba(0, 0, 255, 0.315);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.wallet-balance {
+    background-color: rgb(241, 255, 240);
+    border: 2px solid rgba(255, 238, 0, 0.315);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.main-section {
+    display: flex;
+}
+
+.purchase-coffee-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.purchase-coffee-section img {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.purchase-coffee-section p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+.coffee-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 40px 10px;
+    border-radius: 5px;
+    width: 80%;
+    gap: 10px;
+}
+
+.field {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.message-field {
+    height: 100px;
+}
+
+.form-button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ls-coffee-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.ls-coffee-section > p {
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.coffee-item {
+    width: 400px;
+    min-height: 70px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.coffee-message {
+    background-color: rgba(94, 255, 0, 0.103);
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.coffee-amount {
+    font-family: monospace;
+}
+
+.coffee-text > a {
+    font-family: monospace;
+}
+
+.coffee-time {
+    text-align: right;
+    font-family: monospace;
+}
