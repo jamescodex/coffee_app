@@ -59,3 +59,18 @@ The dApp configuration can be modified by editing the `src/config.js` file. Here
 
 Make sure to update the configuration according to your specific deployment details.
 
+## Smart Contract
+
+The dApp relies on a smart contract deployed on the Ethereum blockchain to handle the coffee transactions. The source code for the smart contract can be found in the `smart-contract/` directory. To deploy the contract, you can use tools like Remix, Truffle, or Hardhat.
+
+## License
+
+This project is licensed under the MIT License. Feel free to modify and distribute it according to your needs. See the [LICENSE](LICENSE) file for more information.
+
+## Acknowledgments
+
+This project was developed using JavaScript and the React framework, leveraging blockchain technology to create a decentralized application. Special thanks to the open-source community for providing the necessary tools and libraries.
+
+If you encounter any issues or have suggestions for improvements, please create a new issue on the [GitHub repository](https://github.com/your-username/buy-me-a-coffee-dapp/issues).
+
+Let's support content creators and enjoy a virtual coffee together!
